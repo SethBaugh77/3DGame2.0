@@ -23,15 +23,7 @@ public class PlayerMove3D : MonoBehaviour
     float rotationX = 0F;
     float rotationY = 0F;
 
-
-
-
-
-
-
-
-
-
+    public GameObject pauseMenuUI;
 
     // Start is called before the first frame update
     void Start()
@@ -47,25 +39,22 @@ public class PlayerMove3D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        inputX = Input.GetAxis("Horizontal");
-        float inputY = Input.GetAxis("Vertical");
-        Vector3 moveVect = new Vector3(inputX, 0, inputY);
-        moveVect *= (moveSpeed * Time.deltaTime);
-        transform.Translate(moveVect);
+        if (!PauseMenu.GameIsPaused) {
+            inputX = Input.GetAxis("Horizontal");
+            float inputY = Input.GetAxis("Vertical");
+            Vector3 moveVect = new Vector3(inputX, 0, inputY);
+            moveVect *= (moveSpeed * Time.deltaTime);
+        
+            transform.Translate(moveVect);
 
-
-
-       
             
             rotationX += Input.GetAxis("Mouse X") * sensitivityX;
             rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
-            
-            
+                
+                
             rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
 
             transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);
-        
-      
-
+        }
     }
 }
