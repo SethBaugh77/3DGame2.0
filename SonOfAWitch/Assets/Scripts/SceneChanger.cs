@@ -18,7 +18,7 @@ public class SceneChanger : MonoBehaviour
     }
 
     public void startGame() {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void continueGame() {
@@ -30,7 +30,11 @@ public class SceneChanger : MonoBehaviour
     }
 
     public void startCredits() {
-        
+        SceneManager.LoadScene(2);
+    }
+
+    public void startMenu() {
+        SceneManager.LoadScene(1);
     }
 
     public void startQuit() {
