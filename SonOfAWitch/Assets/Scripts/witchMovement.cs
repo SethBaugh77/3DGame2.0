@@ -20,13 +20,13 @@ public class witchMovement : MonoBehaviour
 
     public Transform[] movePoints;
     public float speed;
-    private int amount;
+    public int amount;
     private Transform currentTarget;
     private float timer = 0f;
     private Boolean change;
     public int witchNum;
-    private int previous;
-    public Boolean returning = false;
+    public int previous;
+    public Boolean returning; 
 
 
 
@@ -37,7 +37,7 @@ public class witchMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        amount = 0;
+        
         currentTarget = movePoints[amount];
         //currentTarget = movePoints[movingToward].transform;
         print(currentTarget.position.x);
