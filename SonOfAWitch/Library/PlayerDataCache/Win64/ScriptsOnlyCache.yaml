@@ -20,8 +20,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -80,6 +82,9 @@ ScriptsOnlyBuild:
     methodName: Resume
   - assembly: Assembly-CSharp
     fullTypeName: SceneChanger
+    methodName: startCredits
+  - assembly: Assembly-CSharp
+    fullTypeName: SceneChanger
     methodName: startQuit
   - assembly: Assembly-CSharp
     fullTypeName: SceneChanger
@@ -103,25 +108,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1546}
+    - Class: 114
       Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2348}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 3184}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 5324}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 5944}
+      Script: {instanceID: 6096}
     - Class: 114
-      Script: {instanceID: 6098}
+      Script: {instanceID: 6444}
     - Class: 114
-      Script: {instanceID: 6446}
-    - Class: 114
-      Script: {instanceID: 7782}
+      Script: {instanceID: 7780}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -178,45 +183,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1546}
+    - Class: 114
       Script: {instanceID: 1548}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 1794}
+      Script: {instanceID: 2218}
     - Class: 114
-      Script: {instanceID: 2220}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2348}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 2656}
+      Script: {instanceID: 3184}
     - Class: 114
-      Script: {instanceID: 3186}
+      Script: {instanceID: 3938}
     - Class: 114
-      Script: {instanceID: 3940}
+      Script: {instanceID: 4152}
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4156}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 4268}
+      Script: {instanceID: 4320}
     - Class: 114
-      Script: {instanceID: 4322}
+      Script: {instanceID: 4542}
     - Class: 114
-      Script: {instanceID: 4544}
+      Script: {instanceID: 5324}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 5944}
+      Script: {instanceID: 6096}
     - Class: 114
-      Script: {instanceID: 6098}
+      Script: {instanceID: 6134}
     - Class: 114
-      Script: {instanceID: 6136}
+      Script: {instanceID: 6444}
     - Class: 114
-      Script: {instanceID: 6446}
+      Script: {instanceID: 7020}
     - Class: 114
-      Script: {instanceID: 7022}
-    - Class: 114
-      Script: {instanceID: 7076}
+      Script: {instanceID: 7074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1240,6 +1245,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: badd4ab6403ae8d12a554555c81be97b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: witchMovement
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
