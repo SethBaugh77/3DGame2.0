@@ -59,13 +59,16 @@ public class witchMovement : MonoBehaviour
 
         if ((currentTarget.position.x - transform.position.x < .1 && currentTarget.position.x - transform.position.x > -.1) && (currentTarget.position.z - transform.position.z < .1 && currentTarget.position.z - transform.position.z > -.1))
         {
-            if(witchNum == 0)
-            witch0();
-           else if (witchNum == 1)
+            if (witchNum == 0)
+                witch0();
+            else if (witchNum == 1)
+            {
                 witch1();
-           else if (witchNum == 2)
+                rotationWitch1();
+            }
+            else if (witchNum == 2)
                 witch2();
-           else if (witchNum == 3)
+            else if (witchNum == 3)
                 witch3();
             print("DOES IT GET HERE???");
 
@@ -202,6 +205,113 @@ public class witchMovement : MonoBehaviour
 
 
 
+        change = false;
+    }
+    //amount if where it's going
+    void rotationWitch1()
+    {
+        if (amount == 2 && previous == 1)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z);
+
+        }
+        else if (amount == 1 && previous == 2)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 180, transform.rotation.z);
+
+        }
+
+        else if (amount == 3 && previous == 1)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z);
+
+        }
+        else if (amount == 4 && previous == 3)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z);
+
+        }
+
+        else if (amount == 5 && previous == 4)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 180, transform.rotation.z);
+
+        }
+        else if (amount == 5 && previous == 6)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 180, transform.rotation.z);
+
+        }
+        else if (amount == 7 && previous == 5)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z);
+
+        }
+        else if (amount == 0 && previous == 7)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y - 90, transform.rotation.z);
+
+        }
+        else if (amount == 1 && previous == 0)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y - 90, transform.rotation.z);
+
+        }
+        else if (amount == 10 && previous == 9)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y - 90, transform.rotation.z);
+
+        }
+        else if (amount == 11 && previous == 10)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y - 90, transform.rotation.z);
+
+        }
+        else if (amount == 12 && previous == 11)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y - 90, transform.rotation.z);
+
+        }
+        else if (amount == 11 && previous == 12)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 180, transform.rotation.z);
+
+        }
+        else if (amount == 10 && previous == 11)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z);
+
+        }
+        else if (amount == 9 && previous == 10)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z);
+
+        }
+        else if (amount == 8 && previous == 9)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z);
+
+        }
+        else if (amount == 4 && previous == 8)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y - 90, transform.rotation.z);
+
+        }
+        else if (amount == 2 && previous == 3)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y - 90, transform.rotation.z);
+            returning = true;
+
+        }
+
+        else if (amount == 1 && previous == 0 && returning)
+        {
+            transform.Rotate(transform.rotation.x, transform.rotation.y + 180, transform.rotation.z);
+            returning = false;
+        }
+
+
+
 
 
 
@@ -220,6 +330,15 @@ public class witchMovement : MonoBehaviour
 
         change = false;
     }
+
+
+
+
+
+
+
+
+
     void witch0()
     {
         //previous = amount;
@@ -313,6 +432,44 @@ public class witchMovement : MonoBehaviour
 
     void witch1()
     {
+        if(amount == 2 && previous == 1)
+        {
+            previous = amount;
+            amount = 1;
+        }
+        else if (amount == 1 && previous == 2)
+        {
+            previous = amount;
+            amount = 3;
+        }
+
+        else if (amount == 6 && previous == 5)
+        {
+            previous = amount;
+            amount = 5;
+        }
+        else if (amount == 5 && previous == 6)
+        {
+            previous = amount;
+            amount = 7;
+        }
+        else if (amount == 7 && previous == 5)
+        {
+            previous = amount;
+            amount = 0;
+        }
+
+
+
+        else
+        {
+            previous = amount;
+            amount++;
+        }
+        change = true;
+
+        currentTarget = movePoints[amount];
+
 
     }
     void witch2()
