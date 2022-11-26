@@ -101,6 +101,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\witchMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\pickUpMaterial1.cs" />
+    <Compile Include="Assets\Scripts\pickUpMaterial2.cs" />
+    <Compile Include="Assets\Scripts\pickUpMaterial3.cs" />
+    <Compile Include="Assets\Scripts\level2Manager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
