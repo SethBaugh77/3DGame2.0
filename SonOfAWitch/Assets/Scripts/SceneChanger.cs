@@ -40,4 +40,8 @@ public class SceneChanger : MonoBehaviour
     public void startQuit() {
         Application.Quit(0);
     }
+    public void loadLevel2()
+    {
+        SceneManager.LoadScene(2);
+    }
 }

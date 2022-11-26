@@ -361,6 +361,7 @@
 "Assets/Scripts/openDoors.cs"
 "Assets/Scripts/PickUpBeetle.cs"
 "Assets/Scripts/PlayerMove3D.cs"
+"Assets/Scripts/playerTouchLight.cs"
 "Assets/Scripts/SceneChanger.cs"
 "Assets/Scripts/witchMovement.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
