@@ -1,539 +1,401 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1668830314329837, "dur": 752096, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830314329862, "dur": 4095, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830314333960, "dur": 61644, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830314395606, "dur": 253914, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830314649522, "dur": 420914, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830315070439, "dur": 11494, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830315082984, "dur": 19, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1668830314520336, "dur": 110740, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668830314521222, "dur": 42999, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668830314614243, "dur": 5511, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668830314619758, "dur": 11311, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668830314620572, "dur": 9406, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668830314635309, "dur": 1465, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1668830314634604, "dur": 2198, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830315083151, "dur": 360, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669789843243016, "dur": 86242, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669789843243264, "dur": 8934, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669789843252199, "dur": 64908, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669789843317108, "dur": 12149, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669789843329879, "dur": 9, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1668830314694780, "dur":1477, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830314696264, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1668830314696314, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1668830314696329, "dur":751, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1668830314697188, "dur":833, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830314698021, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030025, "dur":608, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030633, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030656, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030662, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030675, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030679, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030691, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030695, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030706, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030710, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030722, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030726, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030735, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030740, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030750, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030753, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030765, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030797, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315030827, "dur":4180, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1668830314697862, "dur":355, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314698217, "dur":5748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314703966, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668830314704124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314707020, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1668830314710159, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1668830314710238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314710246, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1668830314712304, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1668830314712389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314712396, "dur":1593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1668830314714120, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1668830314714197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314714658, "dur":26837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1668830314741580, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314741666, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314741677, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314743881, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314743981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314743989, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314748095, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314748174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314748181, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314751274, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314751359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314751367, "dur":2790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314754256, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314754653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314754662, "dur":4664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314759812, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314760041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314760048, "dur":3531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314763661, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314763783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314763795, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314766358, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314766452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314766459, "dur":7854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":1, "ts":1668830314774896, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1668830314775011, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314775027, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":1, "ts":1668830314777545, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1668830314777619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1668830314777738, "dur":6645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1668830314784502, "dur":245538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314697673, "dur":433, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314698106, "dur":5866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314703973, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1668830314704135, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314707100, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1668830314709986, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1668830314710065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314710073, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1668830314712177, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1668830314712245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314712255, "dur":1554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1668830314713898, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch.exe" }}
-,{ "pid":12345, "tid":2, "ts":1668830314713986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314713992, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch.exe" }}
-,{ "pid":12345, "tid":2, "ts":1668830314715825, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314715883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314715889, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314718306, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314718358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314718363, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314720448, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314720562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314720568, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314723402, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314723782, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314723800, "dur":6450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314730334, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314730422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314730432, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314732823, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314732906, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314732912, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314735535, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314735606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314735613, "dur":4431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314740124, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314740356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314740363, "dur":2632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314743067, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314743148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314743156, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314745994, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314746082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314746099, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314748159, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314748242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314748249, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314751545, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314751624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314751631, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314754223, "dur":805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314755031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314755039, "dur":3943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314759061, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314759328, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314759335, "dur":2567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314761978, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314762059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314762067, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314764485, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314764555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314764563, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314766712, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314766804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314766811, "dur":4286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314771273, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314771347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314771360, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":2, "ts":1668830314774067, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668830314774152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314774164, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":2, "ts":1668830314777197, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1668830314777482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314777495, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1668830314779810, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2" }}
-,{ "pid":12345, "tid":2, "ts":1668830314779905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314779916, "dur":2322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2" }}
-,{ "pid":12345, "tid":2, "ts":1668830314782308, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1668830314782410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1668830314782450, "dur":1841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1668830314784365, "dur":245656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314697845, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314698172, "dur":5789, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314703964, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1668830314704376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314709918, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1668830314712156, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1668830314712244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314712254, "dur":2177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1668830314714502, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314714580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314714802, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314718281, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314718334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314718339, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314720367, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314720448, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314720455, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314723725, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314723812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314723820, "dur":8371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314732293, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314732752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314732763, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314735975, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314736033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314736040, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314738927, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314739012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314739023, "dur":2000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314741120, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314741255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314741276, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314743507, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314743688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314743696, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314746079, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314746169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314746176, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314748102, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314748185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314748191, "dur":4286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314752556, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314752838, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314752849, "dur":2842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314758054, "dur":1353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314759410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314759418, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314761954, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314762059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314762068, "dur":5255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314767399, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314767471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314767477, "dur":9965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":3, "ts":1668830314777560, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1668830314777665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314777674, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets" }}
-,{ "pid":12345, "tid":3, "ts":1668830314780201, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1668830314780277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314780295, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level0.resS" }}
-,{ "pid":12345, "tid":3, "ts":1668830314782321, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1668830314782616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1668830314782624, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1668830314784453, "dur":245565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314698211, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314698212, "dur":5755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314703968, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1668830314704187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314707025, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1668830314710377, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1668830314710531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314711254, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1668830314713135, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314713219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314713224, "dur":35110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314748410, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314748489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314748495, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314751322, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314751405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314751412, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314754473, "dur":831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314755308, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314755315, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314759365, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314759580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314759588, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314761651, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314761955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314761963, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314764127, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314764231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314764243, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314766898, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314766981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314766987, "dur":4781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1668830314771916, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1668830314772334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314774251, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":4, "ts":1668830314777509, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1668830314777782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314777789, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":4, "ts":1668830314780101, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1668830314780186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314780196, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level1" }}
-,{ "pid":12345, "tid":4, "ts":1668830314782033, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1668830314782118, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1668830314782126, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":4, "ts":1668830314784587, "dur":245426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314698030, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314698031, "dur":5899, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314703963, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1668830314703965, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314704064, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1668830314704070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314705438, "dur":4434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/app.info" }}
-,{ "pid":12345, "tid":5, "ts":1668830314709875, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1668830314709962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314710054, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1668830314711872, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1668830314711939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314712034, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1668830314713854, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1668830314713934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314713941, "dur":13150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1668830314727195, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314727306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314727322, "dur":3353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314730749, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314730831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314730840, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314734871, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314735238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314735246, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314739625, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314739709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314739717, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314742144, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314742225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314742232, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314745383, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314745558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314745566, "dur":2596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314748244, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314748323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314748330, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314751993, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314752112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314752117, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314755112, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314755328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314755336, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314757879, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314758161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314758173, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314760081, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314760357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314760364, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314762570, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314762665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314762672, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314766237, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314766314, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314766321, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314768864, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314768954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314768965, "dur":3058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1668830314772093, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1668830314772184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314772297, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1668830314775152, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1668830314775278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1668830314775286, "dur":177717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1668830314990088, "dur":39945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314698394, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314698394, "dur":5575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314703971, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1668830314704383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314710373, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1668830314712329, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1668830314712403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314712410, "dur":1744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":6, "ts":1668830314714223, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314714296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314714685, "dur":3272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314718061, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314718149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314718155, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314720326, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314720415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314720430, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314724183, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314724339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314724359, "dur":4026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314728486, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314728575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314728591, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314732253, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314732337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314732347, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314734886, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314734963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314734973, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314737821, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314737915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314737927, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314739765, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314739859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314739870, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314742019, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314742094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314742102, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314745122, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314745202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314745212, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314748072, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314748145, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314748153, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314751229, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314751305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314751315, "dur":2850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314754245, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314754327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314754340, "dur":4088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314758837, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314759245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314759254, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314762401, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314762477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314762483, "dur":4141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314766700, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314766792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314766799, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314769194, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314769272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314769285, "dur":7530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":6, "ts":1668830314776918, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1668830314776999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1668830314777010, "dur":6857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":6, "ts":1668830314783954, "dur":246068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314698569, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314698569, "dur":5398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314703967, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1668830314704253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314707821, "dur":2213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1668830314710120, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1668830314710209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314710217, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1668830314712343, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314712422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314712748, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314714779, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314714871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314714956, "dur":3240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314718304, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314718375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314718405, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314720356, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314720432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314720439, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314723813, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314723900, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314723908, "dur":5653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314729660, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314729743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314729756, "dur":2283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314732123, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314732604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314732612, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314735126, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314735237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314735245, "dur":3710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314739228, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314739337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314739347, "dur":3867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314743298, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314743381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314743418, "dur":2210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314745706, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314745787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314745793, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314747945, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314748056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314748065, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314751856, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314751942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314751948, "dur":3806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314755940, "dur":1209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314757157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314757173, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314759651, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314759904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314759911, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314762153, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314762231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314762238, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314765869, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314765950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314765962, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314767994, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314768065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314768099, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314771759, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314772081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314772093, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1668830314774761, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668830314774859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1668830314774875, "dur":188611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1668830315029966, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":7, "ts":1668830315029968, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314698741, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314698742, "dur":5226, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314703969, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1668830314704287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314708478, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1668830314710457, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1668830314710536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314710892, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1668830314712876, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314712990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314713087, "dur":19052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314732218, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314732356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314732397, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314734885, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314735025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314735032, "dur":5976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314741542, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314741673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314741681, "dur":3734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314745663, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314745749, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314745783, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314747945, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314748076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314748084, "dur":2997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314751163, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314751252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314751262, "dur":2769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314754103, "dur":656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314754762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314754782, "dur":4586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314759448, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314759662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314759693, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314761933, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314762022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314762030, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314764363, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314764448, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314764461, "dur":2158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314766700, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314766789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314766796, "dur":5565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":8, "ts":1668830314772440, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1668830314772522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314772530, "dur":6548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1668830314779153, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2.resS" }}
-,{ "pid":12345, "tid":8, "ts":1668830314779233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314779244, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2.resS" }}
-,{ "pid":12345, "tid":8, "ts":1668830314781487, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1668830314781570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1668830314781581, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1668830314783823, "dur":246193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1668830315055226, "dur":4367, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1668830315083618, "dur": 1130, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1668830315082969, "dur": 1813, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1669789843278844, "dur":1333, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843280187, "dur":107, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669789843280308, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669789843280326, "dur":535, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669789843280935, "dur":916, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843281851, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304337, "dur":423, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304760, "dur":55, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304815, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304817, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304854, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304856, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304862, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304863, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304868, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304870, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304873, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304875, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843304880, "dur":142, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843305022, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843305031, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843305033, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843305038, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843305051, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843305059, "dur":1757, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669789843281417, "dur":492, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843281912, "dur":5274, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287198, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287199, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287265, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287267, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287392, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287452, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287615, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287682, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287797, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287870, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287924, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843287992, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288053, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288113, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288161, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288209, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288254, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288312, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288362, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288437, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288502, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288558, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288611, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288681, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288852, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288923, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843288993, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289479, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289532, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289584, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289627, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289687, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289766, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289829, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289883, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669789843289946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843290566, "dur":7756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1669789843298392, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1669789843298480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843298488, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1669789843300172, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1669789843300346, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669789843300400, "dur":3926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843281793, "dur":227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843282021, "dur":5181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287203, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287310, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287516, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287573, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287621, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287752, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287810, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287877, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843287938, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288130, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288185, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288240, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288289, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288340, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288387, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288441, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288562, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288617, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288833, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288896, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288944, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843288992, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289046, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289200, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289250, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289391, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289442, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289606, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289657, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289704, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289756, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289821, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289896, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669789843289959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843290870, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669789843293363, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669789843293430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843293437, "dur":4644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669789843298144, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669789843298214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843298221, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669789843300093, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669789843300168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669789843300179, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669789843301303, "dur":3071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843281521, "dur":412, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843281933, "dur":5327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287261, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287329, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287387, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287461, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287529, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287590, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287667, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287759, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287809, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287879, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843287938, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288003, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288058, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288123, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288173, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288225, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288279, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288329, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288383, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288434, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288491, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288553, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288610, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288673, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288811, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288886, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843288937, "dur":601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289538, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289594, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289648, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289694, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289756, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289821, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289896, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843289955, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669789843290014, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843291568, "dur":4547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669789843296200, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1669789843296265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843296278, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1669789843297864, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1669789843297918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843297924, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1669789843299067, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669789843299133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669789843299141, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1669789843300601, "dur":3783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843281655, "dur":317, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843281972, "dur":5220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287198, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287285, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287348, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287408, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287457, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287523, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287609, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287671, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287743, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287804, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287861, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287924, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843287993, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288415, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288472, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288526, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288572, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288619, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288687, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288828, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288888, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843288954, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289001, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289158, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289209, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289355, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289405, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289567, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289621, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289684, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289818, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289879, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843289930, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669789843290000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669789843291203, "dur":9805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669789843301050, "dur":3333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843281944, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843281945, "dur":5274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287220, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287310, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287377, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287444, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287495, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287546, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287666, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287739, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287796, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287858, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843287991, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843288058, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843288484, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843288546, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843288672, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843288826, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843288972, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289224, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289276, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289419, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289493, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289559, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289616, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289673, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289724, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289776, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289858, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289911, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843289961, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669789843290021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843291789, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669789843293087, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669789843293154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669789843293162, "dur":11096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1669789843304306, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1669789843304308, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843282055, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843282056, "dur":5145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287203, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287287, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287354, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287411, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287460, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287531, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287602, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287660, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287764, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287817, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287914, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843287992, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288047, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288100, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288153, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288201, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288253, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288315, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288369, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288434, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288494, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288610, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288677, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288851, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843288922, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289109, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289160, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289311, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289367, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289517, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289567, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289621, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289686, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289752, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289797, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289843, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289882, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669789843289946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843290575, "dur":4072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669789843294695, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669789843294741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843294748, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669789843297133, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669789843297209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843297227, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669789843298542, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1669789843298612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669789843298619, "dur":1494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1669789843300180, "dur":4195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843282198, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843282198, "dur":5001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287202, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287299, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287370, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287451, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287520, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287577, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287662, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287748, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287805, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287864, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287919, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843287976, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288027, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288077, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288132, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288192, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288244, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288296, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288346, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288397, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288447, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288502, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288551, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288608, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288677, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288838, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288904, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843288965, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289015, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289184, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289235, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289419, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289489, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289556, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289620, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289688, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289753, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289817, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843289872, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843290071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843292126, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669789843293607, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1669789843293844, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843293906, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669789843293974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669789843293982, "dur":6874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669789843300913, "dur":3469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843282356, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843282357, "dur":4863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287220, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287312, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287378, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287439, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287534, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287609, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287662, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287740, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287855, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287914, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843287977, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288031, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288081, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288137, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288192, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288249, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288305, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288362, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288420, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288477, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288534, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288588, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288640, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288759, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288814, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288874, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843288924, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289336, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289392, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289560, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289619, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289684, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289751, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289817, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843289873, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1669789843290029, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843290076, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669789843290125, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843292628, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669789843293486, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1669789843293650, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843293706, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669789843293763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669789843293770, "dur":7155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669789843300980, "dur":3402, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669789843307989, "dur":1227, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669789843330025, "dur": 622, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669789843329868, "dur": 799, "ph": "X", "name": "Write chrome-trace events", "args": {} },

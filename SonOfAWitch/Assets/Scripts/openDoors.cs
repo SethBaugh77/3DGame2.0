@@ -28,7 +28,7 @@ public class openDoors : MonoBehaviour
                 doorText.SetActive(false);
                 //this.GetComponent<Rigidbody>().useGravity = true;
                 //StartCoroutine(waitToFall());
-                gameManager.SendMessage("goTolevel2");
+                gameManager.SendMessage("goToLevel2");
 
 
 
