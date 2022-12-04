@@ -28,7 +28,8 @@ public class PlayerMove3D : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Application.targetFrameRate = 60;//Target the frame rate to about 300fps
+        QualitySettings.vSyncCount = 0;
         // Cursor.lockState = CursorLockMode.Locked;
         Cursor.lockState = CursorLockMode.Locked;
         //Cursor.lockState = CursorLockMode.Confined;
@@ -47,11 +48,11 @@ public class PlayerMove3D : MonoBehaviour
         
             transform.Translate(moveVect);
 
-            
+
             rotationX += Input.GetAxis("Mouse X") * sensitivityX;
             rotationY += Input.GetAxis("Mouse Y") * sensitivityY;
-                
-                
+
+
             rotationY = Mathf.Clamp(rotationY, minimumY, maximumY);
 
             transform.localEulerAngles = new Vector3(-rotationY, rotationX, 0);

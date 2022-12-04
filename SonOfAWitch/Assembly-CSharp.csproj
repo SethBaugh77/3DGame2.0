@@ -107,6 +107,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scripts\witchMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\facePlayer.cs" />
+    <Compile Include="Assets\Scripts\spawnPotionsForPlayer.cs" />
+    <Compile Include="Assets\Scripts\pickUpPotion.cs" />
+    <Compile Include="Assets\Scripts\level3Manager.cs" />
+    <Compile Include="Assets\Scripts\throwPotion.cs" />
+    <Compile Include="Assets\Scripts\potionCollision.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

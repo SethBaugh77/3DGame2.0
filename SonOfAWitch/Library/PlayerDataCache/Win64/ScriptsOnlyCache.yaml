@@ -30,10 +30,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -1499,4 +1497,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/BeginningSceneCorrect.unity
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/Level2.unity
-  playerPath: C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/SonOfAWitch.exe
+  playerPath: C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/3DGame2.0/SonOfAWitch/Build/SonOfAWitch.exe
