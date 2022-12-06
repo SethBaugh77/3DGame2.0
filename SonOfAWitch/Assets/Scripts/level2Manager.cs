@@ -9,7 +9,7 @@ public class level2Manager : MonoBehaviour
      public GameObject shoeImage;
      public GameObject pencilImage;
      public GameObject grassImage;
-    public string holding = null;
+    public static string holding = "null";
     public int inStand = 0;
 
 
@@ -27,6 +27,7 @@ public class level2Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        holding = null;
          shoeImage.SetActive(false);
          pencilImage.SetActive(false);
          grassImage.SetActive(false);
@@ -40,6 +41,9 @@ public class level2Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        print("holding");
+        print(level2Manager.holding);
+        //print("holding" + holding.ToString());
         //texts[0].SetActive(true);
         //if (currTime >= 0.0f)
         //{
@@ -78,26 +82,29 @@ public class level2Manager : MonoBehaviour
             }
         }
 
-        void placeItem(string item)
+        void placeItem()
         {
-            if (item == "material1")
+            if (holding == "Shoe")
             {
                 holding = null;
+            shoeImage.SetActive(false);
                 // material1Image.SetActive(false);
                 inStand++;
             }
-            else if (item == "material2")
+            else if (holding == "Grass")
             {
                 holding = null;
-                // material2Image.SetActive(false);
-                inStand++;
+            grassImage.SetActive(false);
+            // material2Image.SetActive(false);
+            inStand++;
                 //material1Image.SetActive(false);
             }
-            else if (item == "material3")
+            else if (holding == "Pencil")
             {
                 holding = null;
-                // material3Image.SetActive(false);
-                inStand++;
+            pencilImage.SetActive(false);
+            // material3Image.SetActive(false);
+            inStand++;
                 //material1Image.SetActive(false);
             }
 
@@ -105,18 +112,19 @@ public class level2Manager : MonoBehaviour
                 invisPotion();
         }
 
+   
 
 
 
 
 
-        
 
 
 
 
 
-    
+
+
 
 
     public void invisPotion()

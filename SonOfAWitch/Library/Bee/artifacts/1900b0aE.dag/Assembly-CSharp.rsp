@@ -370,6 +370,7 @@
 "Assets/Scripts/pickUpPencil.cs"
 "Assets/Scripts/pickUpPotion.cs"
 "Assets/Scripts/pickUpShoe.cs"
+"Assets/Scripts/placeItemInStand.cs"
 "Assets/Scripts/PlayerMove3D.cs"
 "Assets/Scripts/playerTouchLight.cs"
 "Assets/Scripts/potionCollision.cs"
