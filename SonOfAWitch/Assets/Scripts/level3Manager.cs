@@ -15,7 +15,8 @@ public class level3Manager : MonoBehaviour
 
 
     public float MAX_HEALTH = 100;
-    public float currHealth;
+    public float playerCurrHealth;
+    public float witchCurrHealth;
     GameObject gameManager;
     public GameObject playerHealthBar;
     public GameObject witchHealthBar;
@@ -31,7 +32,8 @@ public class level3Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currHealth = MAX_HEALTH;
+        playerCurrHealth = 5.5499f;
+        witchCurrHealth = playerCurrHealth;
         playerHealthBarImage = playerHealthBar.GetComponent<Image>();
         witchHealthBarImage = witchHealthBar.GetComponent<Image>();
     }
@@ -39,9 +41,14 @@ public class level3Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //playerHealthBar.transform.localScale =
-        //    new Vector3((currHealth) / MAX_HEALTH, 1.0f, 1.0f);
-        //playerHealthBarImage.color = Color.Lerp(Color.red, Color.green, currHealth / MAX_HEALTH);
+        if(playerCurrHealth <= 0)
+        {
+
+        }
+        else if (witchCurrHealth <= 0)
+        {
+
+        }
 
     }
 
@@ -66,16 +73,18 @@ public class level3Manager : MonoBehaviour
     }
     void playerHit()
     {
+        playerCurrHealth -= 1.4f;
         print("juggle");
         playerHealthBar.transform.localScale =
-            new Vector3((currHealth) / MAX_HEALTH, 1.0f, 1.0f);
-        playerHealthBarImage.color = Color.Lerp(Color.green, Color.green, currHealth / MAX_HEALTH);
+            new Vector3(playerCurrHealth, 0.50388f, 1f);
+        playerHealthBarImage.color = Color.Lerp(Color.green, Color.green, playerCurrHealth / MAX_HEALTH);
     }
     void witchHit()
     {
+        witchCurrHealth -= 1.4f;
         witchHealthBar.transform.localScale =
-            new Vector3((currHealth) / MAX_HEALTH, 1.0f, 1.0f);
-        witchHealthBarImage.color = Color.Lerp(Color.red, Color.red, currHealth / MAX_HEALTH);
+            new Vector3(witchCurrHealth, 0.50388f, 1f);
+        witchHealthBarImage.color = Color.Lerp(Color.red, Color.red, witchCurrHealth / MAX_HEALTH);
     }
 
 

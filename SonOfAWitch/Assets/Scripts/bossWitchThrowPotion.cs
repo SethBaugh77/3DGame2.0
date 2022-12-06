@@ -34,7 +34,7 @@ public class bossWitchThrowPotion : MonoBehaviour
 
         Vector3 location = transform.position;
         GameObject newPotion = Instantiate(potion, location, Quaternion.identity);
-        newPotion.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 9000);
+        newPotion.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 10000);
         currSpawnTime = Random.Range(minSpawnTime, maxSpawnTime);
 
     }
