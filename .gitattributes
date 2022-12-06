@@ -12,5 +12,5 @@ SonOfAWitch/Library/Artifacts/5b/5b87b978728dd7ec0a821024082
 SonOfAWitch/Library/Artifacts filter=lfs diff=lfs merge=lfs -text
 SonOfAWitch/Library filter=lfs diff=lfs merge=lfs -text
 SonOfAWitch/Library/Artifacts/00/0065926553a27ba98b32f60bd8
-a49e33
+a49e33 filter=lfs diff=lfs merge=lfs -text
 SonOfAWitch/Library/Artifacts/00/0065926553a27ba98b32f60bd8a49e33 filter=lfs diff=lfs merge=lfs -text
