@@ -9,6 +9,10 @@ public class level2Manager : MonoBehaviour
      public GameObject shoeImage;
      public GameObject pencilImage;
      public GameObject grassImage;
+
+
+    public static bool invis;
+    public GameObject invisText;
     public static string holding = "null";
     public int inStand = 0;
 
@@ -27,6 +31,8 @@ public class level2Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        invis = false;
+        invisText.SetActive(false);
         holding = null;
          shoeImage.SetActive(false);
          pencilImage.SetActive(false);
@@ -108,7 +114,7 @@ public class level2Manager : MonoBehaviour
                 //material1Image.SetActive(false);
             }
 
-            if (inStand++ == 3)
+            if (inStand == 3)
                 invisPotion();
         }
 
@@ -129,6 +135,7 @@ public class level2Manager : MonoBehaviour
 
     public void invisPotion()
     {
-
+        invisText.SetActive(true);
+        invis = true;
     }
 }

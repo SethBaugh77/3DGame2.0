@@ -361,6 +361,7 @@
 "Assets/Scripts/keyDropsFromBat.cs"
 "Assets/Scripts/Level1Manager.cs"
 "Assets/Scripts/level2Manager.cs"
+"Assets/Scripts/level2openDoor.cs"
 "Assets/Scripts/level3Manager.cs"
 "Assets/Scripts/myPotionCollision.cs"
 "Assets/Scripts/openDoors.cs"

@@ -11,6 +11,10 @@ public class BeginningSceneManager : MonoBehaviour
     int textNum = 0;
     public static float currTime = 1.5f;
 
+
+    public GameObject gameManager;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +41,8 @@ public class BeginningSceneManager : MonoBehaviour
         {
             if (textNum == 8)
             {
-                SceneManager.LoadScene(2);
+                gameManager.SendMessage("goToLevel1");
+                //SceneManager.LoadScene(2);
                 return;
             }
             texts[textNum].SetActive(false);
