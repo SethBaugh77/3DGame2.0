@@ -66,7 +66,7 @@ public class spawnPotionsForPlayer : MonoBehaviour
             Vector3 location = spawnPoints[0].transform.position;
 
             GameObject newPotion = Instantiate(potion, location, Quaternion.identity);
-            newPotion.SendMessage("chooseSpot", 0);
+            newPotion.SendMessage("chooseSpot", "0");
             spot0Occupied = true;
         }
         else if (spawnPoint == 1 && spot1Occupied == false)
@@ -75,7 +75,7 @@ public class spawnPotionsForPlayer : MonoBehaviour
             Vector3 location = spawnPoints[1].transform.position;
 
             GameObject newPotion = Instantiate(potion, location, Quaternion.identity);
-            newPotion.SendMessage("chooseSpot", 1);
+            newPotion.SendMessage("chooseSpot", "1");
             spot1Occupied = true;
         }
         else if (spawnPoint == 2 && spot2Occupied == false)
@@ -84,7 +84,7 @@ public class spawnPotionsForPlayer : MonoBehaviour
             Vector3 location = spawnPoints[2].transform.position;
 
             GameObject newPotion = Instantiate(potion, location, Quaternion.identity);
-            newPotion.SendMessage("chooseSpot", 2);
+            newPotion.SendMessage("chooseSpot", "2");
             spot2Occupied = true;
         }
         else if (spawnPoint == 3 && spot3Occupied == false)
@@ -93,7 +93,7 @@ public class spawnPotionsForPlayer : MonoBehaviour
             Vector3 location = spawnPoints[3].transform.position;
 
             GameObject newPotion = Instantiate(potion, location, Quaternion.identity);
-            newPotion.SendMessage("chooseSpot", 3);
+            newPotion.SendMessage("chooseSpot", "3");
             spot3Occupied = true;
         }
     }

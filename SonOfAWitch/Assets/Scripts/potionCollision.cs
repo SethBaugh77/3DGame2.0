@@ -6,6 +6,12 @@ using UnityEngine;
 public class potionCollision : MonoBehaviour
 {
    public GameObject potionExplosion;
+    public GameObject sceneManager;
+
+
+   public float spawnTime;
+
+    public float currSpawnTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,37 +21,60 @@ public class potionCollision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+        
+        currSpawnTime -= Time.deltaTime;
+            
         
     }
-    IEnumerator waitAFew(GameObject newPotionExplosion)
+    IEnumerator waitAFew()
     {
+        Vector3 location = transform.position;
+        GameObject newPotionExplosion = Instantiate(potionExplosion, location, Quaternion.identity);
+        //Destroy(this.transform.GetChild(0).gameObject);
+        //Destroy(this.transform.GetChild(0).gameObject);
 
-        yield return new WaitForSeconds(2.5f);
-        Destroy(newPotionExplosion);
+
+        print("taffy");
+        yield return new WaitForSeconds(.5f);
+        Destroy(newPotionExplosion.gameObject);
+        Destroy(this.gameObject);
     }
 
 
     private void OnCollisionEnter(Collision collision)
     {
-        print("kekw");
-        
-        if (collision.gameObject.tag == "Witch")
+        print("Blog" + currSpawnTime);
+        if (currSpawnTime >= 0.0f)
         {
-            Vector3 location = transform.position;
-            GameObject newPotionExplosion = Instantiate(potionExplosion, location, Quaternion.identity);
-            Destroy(this.gameObject);
-            StartCoroutine(waitAFew(newPotionExplosion));
+            return;
+        }
+
+        print("card");
+        currSpawnTime = spawnTime;
+
+        if (collision.gameObject.tag == "Player")
+        {
+            print("Player");
+            sceneManager.SendMessage("playerHit");
+            StartCoroutine(waitAFew());
             
-           
 
         }
-        else if(collision.gameObject.tag == "Anything")
+
+
+        else if (collision.gameObject.tag == "Anything")
         {
-            Vector3 location = transform.position;
-            GameObject newPotionExplosion = Instantiate(potionExplosion, location, Quaternion.identity);
-            Destroy(this.gameObject);
-            StartCoroutine(waitAFew(newPotionExplosion));
+
+            print("Anything");
+            StartCoroutine(waitAFew());
+           
         }
+
+
+
+
+        
         
         
 
