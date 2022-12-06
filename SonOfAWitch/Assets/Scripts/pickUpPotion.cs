@@ -8,7 +8,7 @@ public class pickUpPotion : MonoBehaviour
     //public GameObject potionText;
     public GameObject player;
     public GameObject sceneManager;
-    public int potionSpot;
+     string potionSpot;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +25,7 @@ public class pickUpPotion : MonoBehaviour
         {
             //potionText.gameObject.SetActive(true);
             print("InHere");
-            sceneManager.SendMessage("pickUpPotionMessage");
+            //sceneManager.SendMessage("pickUpPotionMessage");
             //print("janey");
             //  canvas.gameObject.GetComponentInChildren<TMPro.TextMeshProUGUI>().enabled = true;
 
@@ -34,15 +34,15 @@ public class pickUpPotion : MonoBehaviour
             {
                 print("Messi");
                 sceneManager.SendMessage("pickUpPotion");
-                sceneManager.SendMessage("stopPickUpPotionMessage");
+                //sceneManager.SendMessage("stopPickUpPotionMessage");
                 Destroy(this.gameObject);
-                if (potionSpot == 0)
+                if (potionSpot == "0")
                     spawnPotionsForPlayer.spot0Occupied = false;
-               else if (potionSpot == 1)
+               else if (potionSpot == "1")
                     spawnPotionsForPlayer.spot1Occupied = false;
-               else if (potionSpot == 2)
+               else if (potionSpot == "2")
                     spawnPotionsForPlayer.spot2Occupied = false;
-               else if (potionSpot == 3)
+               else if (potionSpot == "3")
                     spawnPotionsForPlayer.spot3Occupied = false;
 
 
@@ -53,10 +53,10 @@ public class pickUpPotion : MonoBehaviour
             }
         }
         print("OutHere");
-        sceneManager.SendMessage("stopPickUpPotionMessage");
+        //sceneManager.SendMessage("stopPickUpPotionMessage");
         //potionText.gameObject.SetActive(false);
     }
-    void chooseSpot(int spot)
+    void chooseSpot(string spot)
     {
         potionSpot = spot;
     }

@@ -16,7 +16,7 @@ public class playerTouchLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if((player.transform.position.x - transform.position.x < 1.2 && player.transform.position.x - transform.position.x > -1.2) && (player.transform.position.z - transform.position.z < 1.2 && player.transform.position.z - transform.position.z > -1.2))
+        if((player.transform.position.x - transform.position.x < 1.2 && player.transform.position.x - transform.position.x > -1.2) && (player.transform.position.z - transform.position.z < 1.2 && player.transform.position.z - transform.position.z > -1.2) && level2Manager.invis == false)
         {
             print("Honey");
             gameManager.SendMessage("goToLevel2");

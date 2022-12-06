@@ -19,24 +19,42 @@ public class GameManager : MonoBehaviour
     }
     void goToBeginningScene()
     {
+        PlayerPrefs.SetInt("level", 0);
         SceneManager.LoadScene(1);
     }
     void goToLevel1()
     {
+        PlayerPrefs.SetInt("level", 1);
         SceneManager.LoadScene(2);
     }
 
     void goToLevel2()
     {
+        PlayerPrefs.SetInt("level", 2);
         SceneManager.LoadScene(3);
     }
    
     void goToLevel3()
     {
-        SceneManager.LoadScene(2);
+        PlayerPrefs.SetInt("level", 3);
+        SceneManager.LoadScene(4);
     }
 
-
+    void checkLevel()
+    {
+        if (PlayerPrefs.GetInt("level") == 1)
+            goToLevel1();
+       else if (PlayerPrefs.GetInt("level") == 2)
+            goToLevel2();
+       else if (PlayerPrefs.GetInt("level") == 3)
+            goToLevel3();
+       
+    }
+    void newGame()
+    {
+        PlayerPrefs.SetInt("level", 0);
+        goToBeginningScene();
+    }
 
 
 

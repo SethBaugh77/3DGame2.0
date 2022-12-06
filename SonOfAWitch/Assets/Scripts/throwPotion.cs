@@ -6,6 +6,7 @@ public class throwPotion : MonoBehaviour
 {
     
     public GameObject potion;
+    public GameObject sceneManager;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,8 @@ public class throwPotion : MonoBehaviour
             Vector3 location = transform.position;
 
             GameObject newPotion = Instantiate(potion, location, Quaternion.identity);
-            newPotion.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 500);
-            level3Manager.holding = false;
+            newPotion.GetComponent<Rigidbody>().AddForce(gameObject.transform.forward * 550);
+            sceneManager.SendMessage("throwPotion");
             
         }
 
