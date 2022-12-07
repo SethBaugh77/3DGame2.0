@@ -17,37 +17,59 @@ public class level3Manager : MonoBehaviour
     public float MAX_HEALTH = 100;
     public float playerCurrHealth;
     public float witchCurrHealth;
-    GameObject gameManager;
+    public GameObject gameManager;
     public GameObject playerHealthBar;
     public GameObject witchHealthBar;
     Image playerHealthBarImage;
     Image witchHealthBarImage;
 
 
+    public GameObject witchWords;
+    public GameObject panel;
 
-
+    private bool beginning;
 
 
 
     // Start is called before the first frame update
     void Start()
     {
+        beginning = true;
+        witchWords.SetActive(true);
+        panel.SetActive(true);
         playerCurrHealth = 5.5499f;
         witchCurrHealth = playerCurrHealth;
         playerHealthBarImage = playerHealthBar.GetComponent<Image>();
         witchHealthBarImage = witchHealthBar.GetComponent<Image>();
+        PauseMenu.GameIsPaused = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(playerCurrHealth <= 0)
+
+        if (Input.GetMouseButtonDown(0) && beginning)
+        {
+            PauseMenu.GameIsPaused = false;
+            panel.SetActive(false);
+            witchWords.SetActive(false);
+            //texts[textNum].SetActive(false);
+            // pauseMenu.SendMessage("ResumeButNoUI");
+
+        }
+
+
+
+
+
+
+        if (playerCurrHealth <= 0)
         {
 
         }
         else if (witchCurrHealth <= 0)
         {
-
+            gameManager.SendMessage("loadEndScene");
         }
 
     }

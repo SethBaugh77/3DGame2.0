@@ -356,6 +356,7 @@
 "Assets/Scripts/beetleMove.cs"
 "Assets/Scripts/BeginningSceneManager.cs"
 "Assets/Scripts/bossWitchThrowPotion.cs"
+"Assets/Scripts/endSceneManager.cs"
 "Assets/Scripts/facePlayer.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/keyDropsFromBat.cs"
