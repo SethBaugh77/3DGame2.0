@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\spawnPotionsForPlayer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\endSceneManager.cs" />
     <Compile Include="Assets\Scripts\bossWitchThrowPotion.cs" />
     <Compile Include="Assets\Scripts\BeginningSceneManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -117,7 +118,6 @@
     <Compile Include="Assets\Scripts\potionCollision.cs" />
     <Compile Include="Assets\Scripts\witchMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\endSceneManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
