@@ -63,8 +63,31 @@ public class GameManager : MonoBehaviour
 
     void goToMainMenu()
     {
+        spawnPotionsForPlayer.spot0Occupied = false;
+        spawnPotionsForPlayer.spot1Occupied = false;
+        spawnPotionsForPlayer.spot2Occupied = false;
+        spawnPotionsForPlayer.spot3Occupied = false;
         SceneManager.LoadScene(0);
     }
 
+    void quitGame()
+    {
+            Application.Quit(0);
+        
+    }
+    void goToLoseScene()
+    {
+        //     public static bool spot0Occupied = false;
+        //public static bool spot1Occupied = false;
+        //public static bool spot2Occupied = false;
+        //public static bool spot3Occupied = false;
+        spawnPotionsForPlayer.spot0Occupied = false;
+        spawnPotionsForPlayer.spot1Occupied = false;
+        spawnPotionsForPlayer.spot2Occupied = false;
+        spawnPotionsForPlayer.spot3Occupied = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene(6);
+    }
 
 }

@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - level2Manager
     - level2openDoor
     - level3Manager
+    - mainMenuManager
     - myPotionCollision
     - openDoors
     - pickUpGrass
@@ -41,8 +42,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -105,6 +108,33 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PauseMenu
     methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Component
+    methodName: SendMessage
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Component
+    methodName: SendMessage
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Component
+    methodName: SendMessage
   sceneClasses:
     Assets/Scenes/BeginningSceneCorrect.unity:
     - Class: 1
@@ -206,6 +236,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6114}
     - Class: 114
       Script: {instanceID: 6462}
+    - Class: 114
+      Script: {instanceID: 85044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -369,13 +401,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1550}
     - Class: 114
+      Script: {instanceID: 1794}
+    - Class: 114
       Script: {instanceID: 2026}
     - Class: 114
       Script: {instanceID: 2656}
     - Class: 114
       Script: {instanceID: 2770}
     - Class: 114
+      Script: {instanceID: 3192}
+    - Class: 114
       Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 3948}
     - Class: 114
       Script: {instanceID: 5336}
     - Class: 114
@@ -516,6 +554,63 @@ ScriptsOnlyBuild:
     - Class: 213
       Script: {instanceID: 0}
     - Class: 218
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/deathScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1546}
+    - Class: 114
+      Script: {instanceID: 1548}
+    - Class: 114
+      Script: {instanceID: 1550}
+    - Class: 114
+      Script: {instanceID: 2656}
+    - Class: 114
+      Script: {instanceID: 3192}
+    - Class: 114
+      Script: {instanceID: 5336}
+    - Class: 114
+      Script: {instanceID: 5918}
+    - Class: 114
+      Script: {instanceID: 5960}
+    - Class: 114
+      Script: {instanceID: 6114}
+    - Class: 114
+      Script: {instanceID: 6462}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -975,7 +1070,7 @@ ScriptsOnlyBuild:
     className: UnityOnPointerExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: c8c5e65e9fb858572516474d6e2102bc
+      Hash: 305aa620f0126aa02253595ed6ba8645
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenu
@@ -1395,7 +1490,7 @@ ScriptsOnlyBuild:
     className: TMP_FrameRateCounter
   - hash:
       serializedVersion: 2
-      Hash: 6486383c72e3cb9aa10c6c66ba973e70
+      Hash: 28b28a2b12790df78c3f89b375db0f45
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: level3Manager
@@ -1723,6 +1818,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: mainMenuManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/HomeScreenScene.unity
@@ -1731,4 +1832,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level2.unity
   - Assets/Scenes/Level3.unity
   - Assets/Scenes/endScene.unity
+  - Assets/Scenes/deathScene.unity
   playerPath: C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/3DGame2.0/SonOfAWitch/Build2/SonOfAWitch.exe

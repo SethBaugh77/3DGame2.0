@@ -11,7 +11,7 @@ public class level3Manager : MonoBehaviour
     public GameObject potionImage;
     public static bool holding = false;
 
-
+    public GameObject player;
 
 
     public float MAX_HEALTH = 100;
@@ -44,6 +44,24 @@ public class level3Manager : MonoBehaviour
         PauseMenu.GameIsPaused = true;
     }
 
+
+    IEnumerator waitAFew()
+    {
+        //PLAY SOUND
+       
+
+        yield return new WaitForSeconds(1.5f);
+        gameManager.SendMessage("goToLoseScene");
+        //Destroy(newPotionExplosion.gameObject);
+        //Destroy(this.gameObject);
+    }
+
+
+
+
+
+
+
     // Update is called once per frame
     void Update()
     {
@@ -65,7 +83,10 @@ public class level3Manager : MonoBehaviour
 
         if (playerCurrHealth <= 0)
         {
-
+            //Time.timeScale = .5f;
+            StartCoroutine(waitAFew());
+            //play coRoutine, drop player & play sound
+            
         }
         else if (witchCurrHealth <= 0)
         {
@@ -97,16 +118,37 @@ public class level3Manager : MonoBehaviour
     {
         playerCurrHealth -= 1.4f;
         print("juggle");
-        playerHealthBar.transform.localScale =
-            new Vector3(playerCurrHealth, 0.50388f, 1f);
-        playerHealthBarImage.color = Color.Lerp(Color.green, Color.green, playerCurrHealth / MAX_HEALTH);
+        if (playerCurrHealth <= 0)
+        {
+            playerHealthBar.transform.localScale =
+                new Vector3(0, 0.50388f, 1f);
+            playerHealthBarImage.color = Color.Lerp(Color.green, Color.green, playerCurrHealth / MAX_HEALTH);
+        }
+        else 
+        {
+            playerHealthBar.transform.localScale =
+                new Vector3(playerCurrHealth, 0.50388f, 1f);
+            playerHealthBarImage.color = Color.Lerp(Color.green, Color.green, playerCurrHealth / MAX_HEALTH);
+        }
     }
     void witchHit()
     {
         witchCurrHealth -= 1.4f;
-        witchHealthBar.transform.localScale =
-            new Vector3(witchCurrHealth, 0.50388f, 1f);
-        witchHealthBarImage.color = Color.Lerp(Color.red, Color.red, witchCurrHealth / MAX_HEALTH);
+        if (witchCurrHealth <= 0)
+        {
+            witchHealthBar.transform.localScale =
+                new Vector3(0, 0.50388f, 1f);
+            witchHealthBarImage.color = Color.Lerp(Color.red, Color.red, witchCurrHealth / MAX_HEALTH);
+        }
+
+
+        else
+        {
+            
+            witchHealthBar.transform.localScale =
+                new Vector3(witchCurrHealth, 0.50388f, 1f);
+            witchHealthBarImage.color = Color.Lerp(Color.red, Color.red, witchCurrHealth / MAX_HEALTH);
+        }
     }
 
 
