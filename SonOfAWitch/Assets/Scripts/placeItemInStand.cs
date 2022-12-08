@@ -9,6 +9,11 @@ public class placeItemInStand : MonoBehaviour
 
     public GameObject placeItemText;
 
+    public GameObject pencilBrewingStand;
+    public GameObject grassBrewingStand;
+    public GameObject shoeBrewingStand;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +34,21 @@ public class placeItemInStand : MonoBehaviour
 
                 if (Input.GetMouseButton(0))
                 {
+                    if(level2Manager.holding == "Grass")
+                    {
+
+                        grassBrewingStand.gameObject.SetActive(true);
+                        
+                    }
+                    else if(level2Manager.holding == "Pencil")
+                    {
+                        pencilBrewingStand.gameObject.SetActive(true);
+                    }
+                    else if(level2Manager.holding == "Shoe")
+                    {
+                        shoeBrewingStand.gameObject.SetActive(true);
+                    }
+
                     sceneManager.SendMessage("placeItem");
                     placeItemText.gameObject.SetActive(false);
                 }
