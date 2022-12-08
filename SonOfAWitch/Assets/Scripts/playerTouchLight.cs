@@ -19,7 +19,7 @@ public class playerTouchLight : MonoBehaviour
         if((player.transform.position.x - transform.position.x < 1.2 && player.transform.position.x - transform.position.x > -1.2) && (player.transform.position.z - transform.position.z < 1.2 && player.transform.position.z - transform.position.z > -1.2) && level2Manager.invis == false)
         {
             print("Honey");
-            gameManager.SendMessage("goToLevel2");
+            gameManager.SendMessage("goToLoseScene");
         }
     }
 }
