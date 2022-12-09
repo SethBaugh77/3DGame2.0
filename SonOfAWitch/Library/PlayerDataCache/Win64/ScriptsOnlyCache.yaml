@@ -1994,4 +1994,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/deathScene.unity
   - Assets/Scenes/howToPlay.unity
   - Assets/Scenes/CreditsScene.unity
-  playerPath: C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/3DGame2.0/SonOfAWitch/Build/SonOfAWitch.exe
+  playerPath: C:/Users/seths/OneDrive/code/CSCE552/3DGameStuff/3DGameProject4.0/3DGame2.0/SonOfAWitch/Builds/Build-FullScreenWindow/SonOfAWitch.exe
