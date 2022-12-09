@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class level2Manager : MonoBehaviour
 {
@@ -24,6 +25,12 @@ public class level2Manager : MonoBehaviour
     public float currTime = 1.5f;
     Boolean GameIsPaused = false;
     public GameObject pauseMenu;
+
+    float currSpawnTime;
+
+    public AudioSource[] audio = new AudioSource[3];
+
+
     //public GameObject textMenuForPause;
 
 
@@ -31,6 +38,7 @@ public class level2Manager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        currSpawnTime = 25;
         invis = false;
         invisText.SetActive(false);
         holding = null;
@@ -47,6 +55,15 @@ public class level2Manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        
+        
+
+
+
+
+
+
         print("holding");
         print(level2Manager.holding);
         //print("holding" + holding.ToString());
@@ -65,6 +82,19 @@ public class level2Manager : MonoBehaviour
             // pauseMenu.SendMessage("ResumeButNoUI");
 
         }
+
+        if (currSpawnTime >= 0.0f)
+        {
+            currSpawnTime -= Time.deltaTime;
+            return;
+        }
+
+        audio[0].Play();
+        currSpawnTime = Random.Range(10, 40);
+
+
+
+
     }
         void pickUpItem(string item)
         {
@@ -135,6 +165,7 @@ public class level2Manager : MonoBehaviour
 
     public void invisPotion()
     {
+        audio[1].Play();
         invisText.SetActive(true);
         invis = true;
     }

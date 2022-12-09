@@ -75,6 +75,16 @@ public class GameManager : MonoBehaviour
             Application.Quit(0);
         
     }
+    void goToHowToPlay()
+    {
+        SceneManager.LoadScene(7);
+
+    }
+    void goToCredits()
+    {
+        SceneManager.LoadScene(8);
+
+    }
     void goToLoseScene()
     {
         //     public static bool spot0Occupied = false;

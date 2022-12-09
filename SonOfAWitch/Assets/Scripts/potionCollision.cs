@@ -8,8 +8,10 @@ public class potionCollision : MonoBehaviour
    public GameObject potionExplosion;
     public GameObject sceneManager;
 
+    public AudioSource[] audio = new AudioSource[3];
 
-   public float spawnTime;
+
+    public float spawnTime;
 
     public float currSpawnTime;
     // Start is called before the first frame update
@@ -44,6 +46,9 @@ public class potionCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+
+        audio[0].Play();
+
         print("Blog" + currSpawnTime);
         if (currSpawnTime >= 0.0f)
         {

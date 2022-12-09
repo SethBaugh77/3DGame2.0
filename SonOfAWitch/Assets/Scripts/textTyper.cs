@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+//inspiration for this script found at https://answers.unity.com/questions/50104/how-to-make-text-that-is-writen-automatically-lett.html by user lampd1
 
 public class textTyper : MonoBehaviour
 {

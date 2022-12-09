@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class keyDropsFromBat : MonoBehaviour
@@ -43,11 +44,15 @@ public class keyDropsFromBat : MonoBehaviour
             }
         }
     }
-
+    public AudioSource[] audio = new AudioSource[3];
     public IEnumerator waitToFall()
     {
+        audio[1].Play();
+        yield return new WaitForSeconds(1.1f);
 
-        yield return new WaitForSeconds(2.6f);
+
+        audio[2].Play();
+        yield return new WaitForSeconds(1.5f);
         Destroy(this.gameObject);
         sceneManager.SendMessage("pickUpItem", "key");
 

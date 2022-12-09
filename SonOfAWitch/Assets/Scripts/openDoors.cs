@@ -15,6 +15,16 @@ public class openDoors : MonoBehaviour
         doorText.SetActive(false);
 
     }
+    public AudioSource[] audio = new AudioSource[1];
+    public IEnumerator waitASec()
+    {
+        audio[0].Play();
+        yield return new WaitForSeconds(1.1f);
+
+
+        gameManager.SendMessage("goToLevel2");
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -27,8 +37,8 @@ public class openDoors : MonoBehaviour
                 sceneManager.SendMessage("pickUpItem", "key");
                 doorText.SetActive(false);
                 //this.GetComponent<Rigidbody>().useGravity = true;
-                //StartCoroutine(waitToFall());
-                gameManager.SendMessage("goToLevel2");
+                StartCoroutine(waitASec());
+               
 
 
 

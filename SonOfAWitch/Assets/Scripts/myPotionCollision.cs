@@ -8,6 +8,7 @@ public class myPotionCollision : MonoBehaviour
     // Start is called before the first frame update
     public GameObject potionExplosion;
     public GameObject sceneManager;
+    public AudioSource[] audio = new AudioSource[3];
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +37,7 @@ public class myPotionCollision : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-       
-
+        audio[0].Play();
         print("card");
        
 

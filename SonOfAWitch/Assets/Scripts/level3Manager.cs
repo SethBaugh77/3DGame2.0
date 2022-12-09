@@ -29,7 +29,7 @@ public class level3Manager : MonoBehaviour
 
     private bool beginning;
 
-
+    public AudioSource[] audio = new AudioSource[3];
 
     // Start is called before the first frame update
     void Start()
